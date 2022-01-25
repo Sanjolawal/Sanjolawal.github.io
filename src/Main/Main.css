@@ -1,0 +1,370 @@
+main{
+    background: rgb(24, 24, 24); 
+    padding: 6vh 5vw 0 5vw;
+    box-sizing: border-box;
+    color: white;
+    font-family: "prompt", sans-serif;
+    margin: 0vh 0 0 0;
+}
+main h1, main p{
+    text-align: center;
+    margin: 0 0 0 0;
+    font-weight: bold;
+}
+.ch-col{
+    color:rgb(220, 171, 88);
+}
+main menu{
+    display: grid;
+    grid-template-columns: 20vw 20vw 20vw;
+    column-gap: 5vw;
+    margin: 5vh 0 0vh 0vw;
+    justify-content: center;
+}
+main menu div{
+    background: rgb(24,24,24);
+    display: grid;
+    justify-items: center;
+    border: 2px solid rgb(255,255,255,0.1);
+    border-radius: 10px;
+    padding: 6vh 4vw 4vh 4vw;
+    margin: 0 0 4vh 0;
+    font-family: 'Anton', sans-serif;
+}
+main menu div p{
+    font-family: 'prompt', sans-serif;
+}
+.odd{
+    background: rgb(38,37,43);
+}
+.col-gr1,.col-gr2,.col-gr3, .col-gr4, .col-gr5, .col-gr6, .col-gr7{
+    background: linear-gradient(to bottom, rgb(152, 173, 44, 0.2)30%,rgb(62, 199, 187,0.1)25%,rgb(11, 235, 255,0.2) );
+    width: 4vw;
+    height: 50vh;
+    position: absolute;
+    top: 54vh;
+    left: 0vw;
+    filter: blur(100px);
+    margin: 0;
+}
+.col-gr2{
+    top: 60vh;
+    left:63vw;
+    width: 27vw;
+}
+.col-gr3{
+top: 70vh;
+left: 20vw;
+width: 30vw;
+height: 60vh;
+}
+.col-gr4{
+    top: 96vh;
+    left:0vw;
+    width:10vw;
+    height: 270vh;
+}
+.col-gr5{
+ top: 146vh;
+ left:60vw;
+ width: 30vw;
+}
+.col-gr6{
+ top: 236vh;
+ left: 64vw;
+ width: 20vw;
+}
+.col-gr7{
+ top: 256vh;
+ left: 64vw;
+ width: 20vw;
+}
+
+main section{
+    margin: 3vh 0 0 0 ;
+}
+
+main section h1{
+    font-size: 2.6vw;
+    width: 30vw;
+}
+main section p{
+    width: 30vw;
+    margin: 1.4vh 0 0 0;
+}
+
+  main section div {
+    padding: 0vh 0vw 2vh 0vw;
+    margin: 2vh 0 0 0;
+    border-radius: 8px;
+    background: rgb(24,24,24);  
+    border: none;
+    display: grid;
+    grid-template-columns: 20vw 20vw 20vw;
+    column-gap: 4vw;
+    justify-content: center;
+}  
+
+  main section div article{
+    padding: 0vh 0vw 2vh 0vw;
+    margin: 2vh 0 0 0;
+    border-radius: 8px;
+    background: rgb(37,38,43);
+    width: 20vw;
+    height: 42vh;
+    border: 2px solid rgb(255,255,255,0.3);
+} 
+main section div img{
+    width: 20vw;
+    height: 22vh;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.h1{
+font-family: "prompt", sans-serif;
+font-size: 1.1vw;
+margin: 2vh 0 2vh -8.2vw;
+}
+.h3{
+margin: 0 0 2vh 0.8vw;
+font-family: "prompt", sans-serif;
+}
+.p1, .a{
+margin: 0 0 1vh -8vw;
+}
+.p2, .a{
+     margin: 0 0 0 -6vw; 
+     text-decoration: none;
+     color: white;
+}
+.a:hover{
+    color: rgb(220, 171, 88);
+}
+   .reviews{
+    display: grid;
+    column-gap: 6vw;
+    width: 76vw;
+    height: 60vh; 
+    margin: 6vh 0 0 5vw; 
+    grid-template-columns: 20vw 40vw;
+    justify-content: center; 
+    align-items: center;
+    padding: 0 0 0 3vw;
+}   
+.R-img{
+    width: 20vw;
+    border-radius: 10px;
+    border: none;
+}
+
+.m-h1{
+font-size: 2.6vw;
+text-align: start;
+}
+.m-p1{
+text-align: start;
+margin: 1.4vh 0 0 0;
+}
+.m-btn{
+    color: rgb(255, 255, 255, 1);
+    font-family: "Anton", sans-serif;
+    background: linear-gradient(to right, rgb(187, 125, 19)15%,rgb(192, 147, 70)45%, rgb(100,100,100));
+    border: none;
+    width: 18vw;
+    border-radius: 5px;
+    margin: 2.6vh 0 0 0vw;
+    font-size: 1.9vw;
+}
+.m-btn:hover{
+    color: black;
+    background: linear-gradient(to bottom, rgb(155, 85, 15)40%,rgb(220, 172, 88));
+    z-index: 100;
+}
+.menu2{
+    justify-items: start;
+    padding: 2vh 4vw 4vh 1vw;
+}
+.img-p{
+  width: 5vw;
+  height: 10vh;
+  margin: 0 0 0vh -0.1vw;
+  z-index: 100;
+}
+.img-s{
+    width: 10vw;
+    height: 20vh;
+    margin: -6vh 0 0 0;
+}
+.pr1{
+    text-align: start;
+    margin: -7vh 0 1vh 0;
+    opacity: 0.6;
+}
+.hr2{
+    font-family: "prompt", sans-serif;
+    font-size: 1.4vw;
+}
+.pr2{
+    opacity: 0.6;
+}
+
+
+
+ @media all and (max-width:1028px){
+    main menu {
+        grid-template-columns: 80vw;
+        justify-content: center;
+        padding: 2vh;
+    }
+    main menu div h1, main menu div p{
+     margin: 2vh;
+    }
+    .col-gr2{
+        top: 100vh;
+        left: 60.5vw;
+    }
+    main section h1{
+        font-size: x-large;
+        width: 50vw;
+        margin: 0 0 0 16vw;
+    }
+    .sec-p{
+        text-align: center;
+        width: 80vw;
+    
+    }
+    main section div {
+        grid-template-columns: 50vw;
+        justify-items: center;
+    }
+    main section div article{
+        width: 74vw;
+        margin-bottom: 3vh;
+    }
+    main section div img{
+        width: 74vw;
+    }
+    .col-gr5{
+ top: 186vh;
+ left:56vw;
+ width: 30vw;
+}
+    .col-gr6{
+ top: 289vh;
+ left: 10vw;
+ width: 50vw;
+}
+   .col-gr7{
+ top: 626vh;
+ left: 4vw;
+ width: 80vw;
+ height: 60vh;
+}
+    .h1{
+        font-size: 3.5vw;
+        width: 50vw;
+        margin: 1vh 0 1vh -4vw;
+    }
+    .p1{
+        margin: 1vh 0 0 -1vw;
+    }
+    .p2{
+        margin: 1vh 0 0 5.4vw;
+    }
+    .pt{
+         margin: 5vh 0 0vh 0;
+    }
+    .reviews{
+        grid-template-columns: 50vw;
+        margin: 0 0 0vh 2vw;
+        height: 68vh;
+        justify-items: center;
+    }
+    .R-img{
+        width: 60vw;
+        margin: 0 0 2vh 0;
+    }
+    .about{
+        justify-items: center;
+        margin: 0 0 0 0;
+    }
+    .m-h1{
+    text-align: center;
+    font-size: 4.8vw;
+    }
+    .m-p1{
+    text-align: center;
+    }
+    .m-btn{
+      font-size: 6vw;
+      width: 70vw;
+      margin: 2vh 0 0 5vw;
+    }
+    .img-p{
+     width: 21vw;
+     height: 14vh;
+     margin: 0vh 30vw 0 30vw;
+    }
+    .img-s{
+      width: 30vw;
+      margin: -6vh 10vw 0 26vw;
+    }
+    .pr1{
+        text-align: center;
+        margin: -6vh 4vw 0 0;
+    }
+    .pr-1{
+        margin: -5vh 0 0 20vw;
+    }
+    .hr2{
+     font-size: 4.4vw;
+     margin: 2vh 0 0 24vw;
+    }
+    .pr2{
+          margin: 2vh 0 0 20vw;
+    }
+    .pr-2{
+        margin: 2vh 0 0 10vw;
+    }
+} 
+@media all and (max-width:450px){
+ main section h1{
+    font-size: 5.6vw;
+    width: 50vw;
+}
+.btm{
+        padding-bottom: 0vh;
+    }
+.sec-p{
+    width: 90vw;
+}
+.m-h1{
+    font-size: 5vw;
+}
+
+.reviews{
+height: 54vh;
+}
+.pt{
+    font-size: 6.4vw;
+    margin: 3vh 0 0vh 0;
+}
+    .p1, .a{
+margin: 0 0 1vh 0.1vw;
+}
+.p2, .a{
+     margin: 0 0 0 -2vw; 
+     text-decoration: none;
+     color: white;
+     width: 50vw;
+}
+.img-p{
+     width: 32vw;
+     height: 14vh;
+     margin: 0vh 30vw 0 24vw;
+}
+.img-s{
+    width: 40vw; 
+     margin: -6vh 10vw 0 21vw;
+}
+}

@@ -1,0 +1,99 @@
+nav{
+    padding: 0 5vw 0 5vw;
+    background: rgb(24, 24, 24); 
+    display: grid;
+    color: white; 
+    font-family: 'prompt', sans-serif;
+    grid-template-columns: 5vw 30vw 25vw;
+    grid-gap:15vw;
+    align-items: center;
+    border-bottom: none;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+nav ul button,nav a{
+    color: white;
+    background: rgb(24, 24, 24);
+    border: none;
+    text-decoration: none;
+}
+nav li{
+    font-family: 'prompt', sans-serif;
+    font-size: large;
+}
+nav li:hover{
+    color: rgb(255, 255, 255, 0.6);
+}
+nav div{
+    display: flex;
+    justify-content: space-around;
+}
+nav div img:hover, .menu:hover{
+    border: 3px solid rgb(255, 255, 255, 0.3);
+    border-radius: 8px;
+}
+.menu1{
+    width: 2.4vw;
+    height: 4.6vh;
+    /* visibility: hidden; */
+}
+.menu{
+    display: none;
+}
+.hire{
+    display: none;
+}
+
+
+    /* media queries at 500px */
+
+     @media all and (max-width: 1028px){
+nav{
+    display: grid;
+    grid-template-columns: 10vw;
+    grid-gap: 1vh;
+}
+nav ul, nav ul button{
+    padding: 0 0 0 0.4vw;
+    margin: 0vh 0 2vh 0;
+    display: none;
+}
+
+nav div{
+    margin: 0 0 0 9vw;
+    padding: 0 6vw 0 0;
+    display: none;
+}
+.menu1{
+    width: 8vw;
+    visibility: hidden;
+}
+.menu{
+    position: absolute;
+    top: 4vh;
+    left: 89%;
+    display: block;
+}
+.hire{
+    display: none;
+    z-index: 100;
+}
+.hire{
+    color: rgb(255, 255, 255, 1);
+    font-family: "Anton", sans-serif;
+    background: linear-gradient(to right, rgb(187, 125, 19)15%,rgb(192, 147, 70)45%, rgb(100,100,100));
+    border: none;
+    width: 80vw;
+    border-radius: 5px;
+    margin: 0 0 0 2vw;
+    font-size: 4.6vw;
+}
+.hire:hover{
+    color: black;
+    background: linear-gradient(to bottom, rgb(155, 85, 15)40%,rgb(220, 172, 88));
+    z-index: 100;
+}
+} 
