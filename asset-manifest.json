@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/Sanjolawal.github.io/static/css/main.415e11bc.css",
-    "main.js": "/Sanjolawal.github.io/static/js/main.666cd8c0.js",
-    "static/js/787.86e70ff7.chunk.js": "/Sanjolawal.github.io/static/js/787.86e70ff7.chunk.js",
-    "static/media/pro-1.png": "/Sanjolawal.github.io/static/media/pro-1.a5a40bf12e0810dd5718.png",
-    "static/media/Rev-1.jpg": "/Sanjolawal.github.io/static/media/Rev-1.69ee9653a521d5acbc03.jpg",
-    "static/media/profile.png": "/Sanjolawal.github.io/static/media/profile.7b314978bae74db0ecf1.png",
-    "static/media/rev-3.png": "/Sanjolawal.github.io/static/media/rev-3.aef5668610a8dafeb082.png",
-    "static/media/rev-2.png": "/Sanjolawal.github.io/static/media/rev-2.5e2b990843f0a30fd4dc.png",
-    "static/media/5stars.png": "/Sanjolawal.github.io/static/media/5stars.19c74e5e796ff095e88f.png",
-    "static/media/dev-icon.svg": "/Sanjolawal.github.io/static/media/dev-icon.ac095175c52b086d2bc23994fedea13a.svg",
-    "static/media/github.svg": "/Sanjolawal.github.io/static/media/github.d18fb01e1ad22edde808e4e8faf30368.svg",
-    "static/media/linkedin.svg": "/Sanjolawal.github.io/static/media/linkedin.0cddb8f7d5c91cbbdb78d085eaea4736.svg",
-    "index.html": "/Sanjolawal.github.io/index.html",
-    "static/media/menu-bar.svg": "/Sanjolawal.github.io/static/media/menu-bar.80eb08ef90e1b3a8bc49b3e4f991eaf1.svg",
-    "main.415e11bc.css.map": "/Sanjolawal.github.io/static/css/main.415e11bc.css.map",
-    "main.666cd8c0.js.map": "/Sanjolawal.github.io/static/js/main.666cd8c0.js.map",
-    "787.86e70ff7.chunk.js.map": "/Sanjolawal.github.io/static/js/787.86e70ff7.chunk.js.map"
+    "main.css": "/Sanjolawal.github.io.git/static/css/main.415e11bc.css",
+    "main.js": "/Sanjolawal.github.io.git/static/js/main.61ec8d54.js",
+    "static/js/787.86e70ff7.chunk.js": "/Sanjolawal.github.io.git/static/js/787.86e70ff7.chunk.js",
+    "static/media/pro-1.png": "/Sanjolawal.github.io.git/static/media/pro-1.a5a40bf12e0810dd5718.png",
+    "static/media/Rev-1.jpg": "/Sanjolawal.github.io.git/static/media/Rev-1.69ee9653a521d5acbc03.jpg",
+    "static/media/profile.png": "/Sanjolawal.github.io.git/static/media/profile.7b314978bae74db0ecf1.png",
+    "static/media/rev-3.png": "/Sanjolawal.github.io.git/static/media/rev-3.aef5668610a8dafeb082.png",
+    "static/media/rev-2.png": "/Sanjolawal.github.io.git/static/media/rev-2.5e2b990843f0a30fd4dc.png",
+    "static/media/5stars.png": "/Sanjolawal.github.io.git/static/media/5stars.19c74e5e796ff095e88f.png",
+    "static/media/dev-icon.svg": "/Sanjolawal.github.io.git/static/media/dev-icon.ac095175c52b086d2bc23994fedea13a.svg",
+    "static/media/github.svg": "/Sanjolawal.github.io.git/static/media/github.d18fb01e1ad22edde808e4e8faf30368.svg",
+    "static/media/linkedin.svg": "/Sanjolawal.github.io.git/static/media/linkedin.0cddb8f7d5c91cbbdb78d085eaea4736.svg",
+    "index.html": "/Sanjolawal.github.io.git/index.html",
+    "static/media/menu-bar.svg": "/Sanjolawal.github.io.git/static/media/menu-bar.80eb08ef90e1b3a8bc49b3e4f991eaf1.svg",
+    "main.415e11bc.css.map": "/Sanjolawal.github.io.git/static/css/main.415e11bc.css.map",
+    "main.61ec8d54.js.map": "/Sanjolawal.github.io.git/static/js/main.61ec8d54.js.map",
+    "787.86e70ff7.chunk.js.map": "/Sanjolawal.github.io.git/static/js/787.86e70ff7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.415e11bc.css",
-    "static/js/main.666cd8c0.js"
+    "static/js/main.61ec8d54.js"
   ]
 }
