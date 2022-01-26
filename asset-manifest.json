@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Sanjolawal.github.io.git/static/css/main.415e11bc.css",
-    "main.js": "/Sanjolawal.github.io.git/static/js/main.a3318015.js",
+    "main.js": "/Sanjolawal.github.io.git/static/js/main.d4e1bc4a.js",
     "static/js/787.86e70ff7.chunk.js": "/Sanjolawal.github.io.git/static/js/787.86e70ff7.chunk.js",
     "static/media/pro-1.png": "/Sanjolawal.github.io.git/static/media/pro-1.a5a40bf12e0810dd5718.png",
     "static/media/Rev-1.jpg": "/Sanjolawal.github.io.git/static/media/Rev-1.69ee9653a521d5acbc03.jpg",
@@ -15,11 +15,11 @@
     "index.html": "/Sanjolawal.github.io.git/index.html",
     "static/media/menu-bar.svg": "/Sanjolawal.github.io.git/static/media/menu-bar.80eb08ef90e1b3a8bc49b3e4f991eaf1.svg",
     "main.415e11bc.css.map": "/Sanjolawal.github.io.git/static/css/main.415e11bc.css.map",
-    "main.a3318015.js.map": "/Sanjolawal.github.io.git/static/js/main.a3318015.js.map",
+    "main.d4e1bc4a.js.map": "/Sanjolawal.github.io.git/static/js/main.d4e1bc4a.js.map",
     "787.86e70ff7.chunk.js.map": "/Sanjolawal.github.io.git/static/js/787.86e70ff7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.415e11bc.css",
-    "static/js/main.a3318015.js"
+    "static/js/main.d4e1bc4a.js"
   ]
 }
