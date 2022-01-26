@@ -50,7 +50,7 @@ nav div img:hover, .menu:hover{
 
     /* media queries at 500px */
 
-     @media all and (max-width: 1028px){
+     @media all and (max-width: 720px){
 nav{
     display: grid;
     grid-template-columns: 10vw;

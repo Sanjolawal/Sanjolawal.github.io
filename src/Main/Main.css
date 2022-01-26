@@ -210,7 +210,7 @@ margin: 1.4vh 0 0 0;
 
 
 
- @media all and (max-width:1028px){
+ @media all and (max-width:720px){
     main menu {
         grid-template-columns: 80vw;
         justify-content: center;

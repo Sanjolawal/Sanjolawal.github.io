@@ -34,7 +34,7 @@ footer menu p{
     text-align: center;
 }
 
- @media all and (max-width:1028px){
+ @media all and (max-width:720px){
     footer{
         grid-template-columns: 80vw;
     }

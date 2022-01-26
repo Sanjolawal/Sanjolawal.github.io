@@ -71,7 +71,7 @@ header video{
     color: rgb(255, 255, 255,0.8);
 }
 
-@media all and (max-width:1028px){
+@media all and (max-width:720px){
     header{
         grid-template-columns: 80vw;
     }
