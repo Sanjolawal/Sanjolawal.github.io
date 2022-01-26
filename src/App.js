@@ -1,5 +1,5 @@
 import React from 'react';
-import { HashRouter as Router,Routes,Route } from 'react-router-dom';
+import { BrowserRouter, Routes,Route } from 'react-router-dom';
 import Navbar from './Navbar/Navbar';
 import Header from './Header/Header';
 import Main from './Main/Main';
@@ -9,7 +9,7 @@ import Blog from './Blog/Blog';
 
 function App() {
   return (
-   <Router>
+   <BrowserRouter basename={process.env.PUBLIC_URL}>
    <Navbar/>
    <Header/>
    <Main/>
@@ -18,7 +18,7 @@ function App() {
     <Route path="/Blog" element={<Blog/>}/>
   </Routes>
 
-   </Router>
+   </BrowserRouter>
   );
 }
 
